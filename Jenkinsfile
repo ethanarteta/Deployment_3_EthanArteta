@@ -19,17 +19,21 @@ pipeline {
         source test3/bin/activate
         py.test --verbose --junit-xml test-reports/results.xml
         ''' 
-      }
-    stage ('Deploy') {
-      steps { sh '/var/lib/jenkins/.local/bin/eb deploy' 
-      } }
-      post{
-        always {
-          junit 'test-reports/results.xml'
+                }
+            }
         }
-       
-      }
+        stage('Deploy') {
+            steps {
+                script {
+                    // Deploy using Elastic Beanstalk (EB)
+                    sh '/var/lib/jenkins/.local/bin/eb deploy'
+                }
+            }
+        }
     }
-    
-  }
- }
+    post {
+        always {
+            junit 'test-reports/results.xml'
+        }
+    }
+}
