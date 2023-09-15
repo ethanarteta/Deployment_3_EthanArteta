@@ -25,7 +25,7 @@ pipeline {
        steps {
          sh '/var/lib/jenkins/.local/bin/eb deploy'
        } 
-     }
+     
       post{
         always {
           junit 'test-reports/results.xml'
@@ -35,3 +35,4 @@ pipeline {
     }
     
   }
+}
