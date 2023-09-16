@@ -311,63 +311,6 @@ Follow these steps to install the AWS Command Line Interface (CLI):
 
 12. Once Elastic Beanstalk finishes creating the environment, you can find the application URL on the third-to-last line of the command output, under "Application available at URL."
 
----
-
-## Creating AWS IAM Roles permissions.
-
-1. **Navigate to AWS IAM Console.**
-   
-2. **Click "Roles"**
-
-3. **Click "Create role"**
-
-4. **Click the "AWS service" field in the "Trusted entity type".**
-
-5. **Click on the drop down link under "Use cases for other AWS Services".**
-
-6. **Type "elastic"**
-
-7. **Select "Elastic Beanstalk"**
-
-8. **Click the "Elastic Beanstalk - Customizable" field.**
-
-9. **Click "Next"**
-
-10. **Do not edit anything in the "Add permissions" field and instead click "Next"**
-
-11. **Click the "Role name" field and enter "aws-elasticbeanstalk-service-role"**
-
-12. **Click "Create role"**
-
-13. **Click "Create role" to create a second Role**
-
-14. **Click the "AWS service" field.**
-
-15. **Click the "EC2" field.**
-
-16. **Click "Next"**
-
-17. **Click the "Filter policies by property or policy name and press enter." field and find "AWSElasticBeanstalkWebTier"**
-
-18. **Click the checkbox associated with "AWSElasticBeanstalkWebTier".**
-
-19. **Click the "Filter policies by property or policy name and press enter." field and find "AWSElasticBeanstalkWorkerTier"**
-
-20. **Click this checkbox "AWSElasticBeanstalkWorkerTier".**
-
-21. **Click the "Filter policies by property or policy name and press enter." field and find "AWSElasticBeanstalkMulticontainerDocker"**
-
-22. **Click this checkbox associated with "AWSElasticBeanstalkMulticontainerDocker".**
-
-23. **Click "Next"**
-
-24. **Click the "Role name" field and enter "Elastic-EC2"**
-
-25. **Click "Create role"**
-
-26. **All Done!!**
-
-
 
 # Setting up a GitHub Webhook for Jenkins Deployment
 
