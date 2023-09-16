@@ -359,7 +359,7 @@ These steps will walk you through the process of setting up a GitHub webhook for
 
 # Diagram and Images
 ![image](Documentation_Img/Deployment_3_diagram.png)
-![image](Documentation_Img/Deployment_3_Jenkins.png)
-![image](Documentation_Img/Deployment_3_ElasticBeanstalk.png)
-![image](Documentation_Img/Deployment_3_Instances.png)
-![image](Documentation_Img/Deployment_3_URL_Shortener.png)
+![image](DocumentationImgDeploy3/Deployment_3_Jenkins.png)
+![image](DocumentationImgDeploy3/Deployment_3_ElasticBeanstalk.png)
+![image](DocumentationImgDeploy3/Deployment_3_Instances.png)
+![image](DocumentationImgDeploy3/Deployment_3_URL_Shortener.png)
