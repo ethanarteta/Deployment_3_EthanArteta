@@ -13,7 +13,7 @@
     - Observe and Use the URL Shortener Web App.
 
 # Issues
-- Issue with groovy syntax when deploying the app from Jenkins.
+- Issue with syntax when deploying the app from Jenkins.
 - Issue with setting the right permisions while configuring AWS EB CLI.
   All issues resolved.
    
